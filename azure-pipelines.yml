@@ -30,7 +30,7 @@ jobs:
     displayName: 'Run Robot Scripts'
   - task: PublishTestResults@2
     inputs:
-      testResultsFiles: report.html
+      testResultsFiles: Report.html
       searchFolder: 'D:\a\1\s\'
       condition: succeededOrFailed()
       displayName: 'Publish Test Results outputxunit.xml'
