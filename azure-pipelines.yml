@@ -22,7 +22,8 @@ jobs:
     inputs:
       versionSpec: '$(python.version)'
       architecture: 'x64'
-
+      
+  # Instalação Pré-requisitos
   - script: pip install robotframework robotframework-seleniumlibrary && pip install robotframework-requests && pip install robotframework-extendedrequestslibrary && npm install chromedriver
     displayName: 'Install dependencies'
   
